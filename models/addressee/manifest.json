@@ -1,0 +1,20 @@
+{
+ "version": "3b",
+ "files": [
+  {
+   "name": "model.onnx",
+   "bytes": 59462247,
+   "sha256": "6cb6674ea0beb0c30d02f6a203c54df3202c545b1e101e3fbc8508930ba9eae0"
+  },
+  {
+   "name": "pieces.tsv",
+   "bytes": 1439594,
+   "sha256": "b240b1b278badd30a2535509154e7dccdde2d83e1ae26d6e94f9f91421416d00"
+  },
+  {
+   "name": "addressee.json",
+   "bytes": 348,
+   "sha256": "351f7a026310b3cd9c837ab1bf0b048f5bc8c49c6955c28729cac46e146681f1"
+  }
+ ]
+}
