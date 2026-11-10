@@ -1,18 +1,18 @@
-/* MayaDB: a small database for a site made with Maya.
+/* NexaDB: a small database for a site made with Nexa.
  *
- *   <script src="https://getmaya.cloud/_maya/db.js"></script>
+ *   <script src="https://rohitkhan306.github.io/_nexa/db.js"></script>
  *
- *   const id   = await MayaDB.add("scores", { name: "Riya", score: 12 });
- *   const rows = await MayaDB.list("scores", { limit: 20 });   // [{ id, data, created, updated }]
- *   await MayaDB.update("scores", id, { name: "Riya", score: 15 });
- *   await MayaDB.remove("scores", id);
- *   const likes = await MayaDB.inc("counters", "likes", "count", 1);
+ *   const id   = await NexaDB.add("scores", { name: "Riya", score: 12 });
+ *   const rows = await NexaDB.list("scores", { limit: 20 });   // [{ id, data, created, updated }]
+ *   await NexaDB.update("scores", id, { name: "Riya", score: 15 });
+ *   await NexaDB.remove("scores", id);
+ *   const likes = await NexaDB.inc("counters", "likes", "count", 1);
  *
  * Rules worth knowing:
  *   - Anyone visiting can ADD. Only the browser that added a row can change or delete it
- *     (MayaDB remembers a key for it in this browser).
+ *     (NexaDB remembers a key for it in this browser).
  *   - A collection whose name starts with "private_" can be written by visitors but read
- *     only by the site's owner, in the Maya app. Use it for contact forms.
+ *     only by the site's owner, in the Nexa app. Use it for contact forms.
  *   - One row is at most 16 KB of JSON. Never store passwords, OTPs or card numbers.
  *
  * On the real site the data lives on the server. Anywhere else (the preview on your
@@ -21,9 +21,9 @@
  */
 (function () {
   "use strict";
-  if (window.MayaDB) return;
+  if (window.NexaDB) return;
 
-  var DOMAIN = "getmaya.cloud";
+  var DOMAIN = "rohitkhan306.github.io";
   var host = (location.hostname || "").toLowerCase();
   var LIVE = host.length > DOMAIN.length + 1 && host.slice(-(DOMAIN.length + 1)) === "." + DOMAIN;
 
@@ -44,7 +44,7 @@
   }
 
   // ---- where a row's edit key is remembered
-  function keyAt(coll, id) { return "mayadb-key:" + host + ":" + coll + ":" + id; }
+  function keyAt(coll, id) { return "nexadb-key:" + host + ":" + coll + ":" + id; }
   function saveKey(coll, id, key) { try { localStorage.setItem(keyAt(coll, id), key); } catch (e) {} }
   function loadKey(coll, id) { try { return localStorage.getItem(keyAt(coll, id)) || ""; } catch (e) { return ""; } }
   function dropKey(coll, id) { try { localStorage.removeItem(keyAt(coll, id)); } catch (e) {} }
@@ -66,7 +66,7 @@
     var data = null;
     try { data = await res.json(); } catch (e) {}
     if (!res.ok || !data || !data.ok) {
-      throw fail((data && data.error) || ("http_" + res.status), (data && data.message) || ("MayaDB error " + res.status), res.status);
+      throw fail((data && data.error) || ("http_" + res.status), (data && data.message) || ("NexaDB error " + res.status), res.status);
     }
     return data;
   }
@@ -103,7 +103,7 @@
 
   // ---------------------------------------------------------------- the preview stand-in
   // Same answers, kept in this browser. Good enough to try a page; nobody else sees it.
-  function boxAt(coll) { return "mayadb-preview:" + coll; }
+  function boxAt(coll) { return "nexadb-preview:" + coll; }
   function readBox(coll) { try { return JSON.parse(localStorage.getItem(boxAt(coll)) || "[]"); } catch (e) { return []; } }
   function writeBox(coll, rows) { try { localStorage.setItem(boxAt(coll), JSON.stringify(rows)); } catch (e) { throw fail("quota", "this browser's storage is full"); } }
   function isPrivate(coll) { return coll.indexOf("private_") === 0; }
@@ -158,7 +158,7 @@
 
   function isObject(doc) { return doc !== null && typeof doc === "object" && !Array.isArray(doc); }
 
-  window.MayaDB = {
+  window.NexaDB = {
     /** true on the published site, false in a preview (data stays in this browser). */
     live: LIVE,
     add: function (coll, doc, id) {
