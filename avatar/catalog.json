@@ -4,7 +4,7 @@
   "characters": [
     {
       "key": "maya_v1",
-      "persona": "maya",
+      "persona": "Nexa",
       "label": "Nexa",
       "description": "Full body, stands in the screen",
       "sizeMb": 33,
@@ -14,7 +14,7 @@
     },
     {
       "key": "maya_blue",
-      "persona": "maya",
+      "persona": "Nexa",
       "label": "Nexa — blue",
       "description": "Blue hoodie, playful",
       "sizeMb": 32,
@@ -25,7 +25,7 @@
     },
     {
       "key": "maya_red",
-      "persona": "maya",
+      "persona": "Nexa",
       "label": "Nexa — anime",
       "description": "Drawn, and the most expressive: blushes, pouts, hand gestures",
       "sizeMb": 49,
@@ -35,7 +35,7 @@
     },
     {
       "key": "maya_studio",
-      "persona": "maya",
+      "persona": "Nexa",
       "label": "Nexa — studio",
       "description": "Waist-up, closer in",
       "sizeMb": 17,
@@ -45,7 +45,7 @@
     },
     {
       "key": "maya_violet",
-      "persona": "maya",
+      "persona": "Nexa",
       "label": "Nexa — violet",
       "description": "Purple gown, full body",
       "sizeMb": 89,
@@ -66,7 +66,7 @@
     },
     {
       "key": "maya_v1_wp",
-      "persona": "maya",
+      "persona": "Nexa",
       "label": "Nexa",
       "description": "Live wallpaper",
       "sizeMb": 1,
@@ -77,7 +77,7 @@
     },
     {
       "key": "maya_green_wp",
-      "persona": "maya",
+      "persona": "Nexa",
       "label": "Nexa green",
       "description": "Live wallpaper",
       "sizeMb": 1,
@@ -88,7 +88,7 @@
     },
     {
       "key": "maya_red_wp",
-      "persona": "maya",
+      "persona": "Nexa",
       "label": "Nexa red",
       "description": "Live wallpaper",
       "sizeMb": 1,
@@ -99,7 +99,7 @@
     },
     {
       "key": "maya_saree_wp",
-      "persona": "maya",
+      "persona": "Nexa",
       "label": "Nexa saree",
       "description": "Live wallpaper",
       "sizeMb": 1,
@@ -110,7 +110,7 @@
     },
     {
       "key": "maya_studio_wp",
-      "persona": "maya",
+      "persona": "Nexa",
       "label": "Nexa studio",
       "description": "Live wallpaper",
       "sizeMb": 1,
@@ -121,7 +121,7 @@
     },
     {
       "key": "maya_violet_wp",
-      "persona": "maya",
+      "persona": "Nexa",
       "label": "Nexa violet",
       "description": "Live wallpaper",
       "sizeMb": 2,
@@ -132,7 +132,7 @@
     },
     {
       "key": "maya_green",
-      "persona": "maya",
+      "persona": "Nexa",
       "label": "Nexa — green",
       "description": "Green gingham skirt, full body",
       "sizeMb": 29,
@@ -154,7 +154,7 @@
     },
     {
       "key": "maya_saree",
-      "persona": "maya",
+      "persona": "Nexa",
       "label": "Nexa — saree",
       "description": "Sage-green & gold saree, upper body",
       "sizeMb": 52,
@@ -210,40 +210,40 @@
           "w": 720,
           "h": 1584,
           "fps": 30,
-          "bytes": 17465989,
-          "sha256": "90d3a3e7c193c8c071497f6e4d670586840b62f6cf846c72f3757cfbdd23e62a"
+          "bytes": 0,
+          "sha256": ""
         },
         {
           "key": "p720_60",
           "w": 720,
           "h": 1584,
           "fps": 60,
-          "bytes": 24622907,
-          "sha256": "5ab688fcf7be71092e18eea41cd8806b9daadce70f86f45b58c544ccb963684d"
+          "bytes": 0,
+          "sha256": ""
         },
         {
           "key": "p928_60",
           "w": 928,
           "h": 2040,
           "fps": 60,
-          "bytes": 42199894,
-          "sha256": "61c600ef057035771b4d1351749693276bac0b17f3370c5e679768645191f2dc"
+          "bytes": 0,
+          "sha256": ""
         },
         {
           "key": "p1080_60",
           "w": 1080,
           "h": 2376,
           "fps": 60,
-          "bytes": 55613235,
-          "sha256": "64ae4f534fdb8fe4329f96b40c052bed222af9b7555e37f09dd801a32a8312e3"
+          "bytes": 0,
+          "sha256": ""
         },
         {
           "key": "p1264_60",
           "w": 1264,
           "h": 2780,
           "fps": 60,
-          "bytes": 71468657,
-          "sha256": "c087c9487f2f63075259002f71c185402a0a703231312c23a392621618b2f7cd"
+          "bytes": 0,
+          "sha256": ""
         }
       ]
     },
@@ -260,40 +260,40 @@
           "w": 720,
           "h": 1584,
           "fps": 30,
-          "bytes": 4253143,
-          "sha256": "1c5448d428a8b70ed867915115a1d86263ebad0a652ec87ad89cd8d08df94b3f"
+          "bytes": 0,
+          "sha256": ""
         },
         {
           "key": "p720_60",
           "w": 720,
           "h": 1584,
           "fps": 60,
-          "bytes": 6653862,
-          "sha256": "44ec7fbf5b93ecb8016c647281e04afa26f5a94269e4f01e4fd3e1940a5d3418"
+          "bytes": 0,
+          "sha256": ""
         },
         {
           "key": "p928_60",
           "w": 928,
           "h": 2040,
           "fps": 60,
-          "bytes": 10292140,
-          "sha256": "bf068d30d46db5aece78b20f4a0a6ff57600b83452baa646655155d56b36059e"
+          "bytes": 0,
+          "sha256": ""
         },
         {
           "key": "p1080_60",
           "w": 1080,
           "h": 2376,
           "fps": 60,
-          "bytes": 13324692,
-          "sha256": "e766931feb11371c42ea83b6dc683051372ebc02b4832c3d2414ba21d8ab3c09"
+          "bytes": 0,
+          "sha256": ""
         },
         {
           "key": "p1264_60",
           "w": 1264,
           "h": 2780,
           "fps": 60,
-          "bytes": 16896387,
-          "sha256": "2600be711d89c1391ccc1d10b2f7e096eb8391c9af606fe7ce4e4603e6213789"
+          "bytes": 0,
+          "sha256": ""
         }
       ]
     }
