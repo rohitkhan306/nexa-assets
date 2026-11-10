@@ -1,0 +1,21 @@
+{
+ "kind": "addressee",
+ "tokenizer": "pieces.tsv",
+ "bos": 0,
+ "eos": 2,
+ "unk": 3,
+ "max_ctx_turns": 6,
+ "max_ctx_pieces": 24,
+ "max_cur_pieces": 64,
+ "ctx_keeps": "last",
+ "cur_keeps": "first",
+ "role_words": {
+  "assistant": "maya",
+  "user": "user"
+ },
+ "version": "3b",
+ "runtime": {
+  "low": 0.0687,
+  "high": 0.8495
+ }
+}
