@@ -1,0 +1,20 @@
+{
+ "version": "2",
+ "files": [
+  {
+   "name": "model.onnx",
+   "bytes": 38268803,
+   "sha256": "a4bda672d8b12907d469723f1482a3e5fbecefb481e159cb7b516c83a929f015"
+  },
+  {
+   "name": "pieces.tsv",
+   "bytes": 1439594,
+   "sha256": "b240b1b278badd30a2535509154e7dccdde2d83e1ae26d6e94f9f91421416d00"
+  },
+  {
+   "name": "turn_detector.json",
+   "bytes": 391,
+   "sha256": "0de9dbad42085c16aa26667618d8dcc141296df6c015b2d084e894e80d3ebddf"
+  }
+ ]
+}
