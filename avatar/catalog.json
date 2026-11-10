@@ -5,7 +5,7 @@
     {
       "key": "maya_v1",
       "persona": "maya",
-      "label": "Maya",
+      "label": "Nexa",
       "description": "Full body, stands in the screen",
       "sizeMb": 33,
       "order": 10,
@@ -15,7 +15,7 @@
     {
       "key": "maya_blue",
       "persona": "maya",
-      "label": "Maya — blue",
+      "label": "Nexa — blue",
       "description": "Blue hoodie, playful",
       "sizeMb": 32,
       "order": 12,
@@ -26,7 +26,7 @@
     {
       "key": "maya_red",
       "persona": "maya",
-      "label": "Maya — anime",
+      "label": "Nexa — anime",
       "description": "Drawn, and the most expressive: blushes, pouts, hand gestures",
       "sizeMb": 49,
       "order": 15,
@@ -36,7 +36,7 @@
     {
       "key": "maya_studio",
       "persona": "maya",
-      "label": "Maya — studio",
+      "label": "Nexa — studio",
       "description": "Waist-up, closer in",
       "sizeMb": 17,
       "order": 20,
@@ -46,7 +46,7 @@
     {
       "key": "maya_violet",
       "persona": "maya",
-      "label": "Maya — violet",
+      "label": "Nexa — violet",
       "description": "Purple gown, full body",
       "sizeMb": 89,
       "order": 30,
@@ -67,7 +67,7 @@
     {
       "key": "maya_v1_wp",
       "persona": "maya",
-      "label": "Maya",
+      "label": "Nexa",
       "description": "Live wallpaper",
       "sizeMb": 1,
       "order": 40,
@@ -78,7 +78,7 @@
     {
       "key": "maya_green_wp",
       "persona": "maya",
-      "label": "Maya green",
+      "label": "Nexa green",
       "description": "Live wallpaper",
       "sizeMb": 1,
       "order": 40,
@@ -89,7 +89,7 @@
     {
       "key": "maya_red_wp",
       "persona": "maya",
-      "label": "Maya red",
+      "label": "Nexa red",
       "description": "Live wallpaper",
       "sizeMb": 1,
       "order": 40,
@@ -100,7 +100,7 @@
     {
       "key": "maya_saree_wp",
       "persona": "maya",
-      "label": "Maya saree",
+      "label": "Nexa saree",
       "description": "Live wallpaper",
       "sizeMb": 1,
       "order": 40,
@@ -111,7 +111,7 @@
     {
       "key": "maya_studio_wp",
       "persona": "maya",
-      "label": "Maya studio",
+      "label": "Nexa studio",
       "description": "Live wallpaper",
       "sizeMb": 1,
       "order": 40,
@@ -122,7 +122,7 @@
     {
       "key": "maya_violet_wp",
       "persona": "maya",
-      "label": "Maya violet",
+      "label": "Nexa violet",
       "description": "Live wallpaper",
       "sizeMb": 2,
       "order": 40,
@@ -133,7 +133,7 @@
     {
       "key": "maya_green",
       "persona": "maya",
-      "label": "Maya — green",
+      "label": "Nexa — green",
       "description": "Green gingham skirt, full body",
       "sizeMb": 29,
       "order": 40,
@@ -155,7 +155,7 @@
     {
       "key": "maya_saree",
       "persona": "maya",
-      "label": "Maya — saree",
+      "label": "Nexa — saree",
       "description": "Sage-green & gold saree, upper body",
       "sizeMb": 52,
       "order": 50,
@@ -200,7 +200,7 @@
     {
       "key": "scene_maya_desk",
       "label": "Asleep at her desk",
-      "description": "Maya dozing under the neon, breathing softly.",
+      "description": "Nexa dozing under the neon, breathing softly.",
       "minTier": "promax",
       "order": 1,
       "sizeMb": 71,
