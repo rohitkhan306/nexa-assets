@@ -1,0 +1,22 @@
+{
+ "kind": "student",
+ "runtime": {
+  "threshold": 0.86,
+  "min_delay_ms": 400,
+  "incomplete_delay_ms": 1500,
+  "max_delay_ms": 3000,
+  "low_threshold": 0.466
+ },
+ "tokenizer": "pieces.tsv",
+ "bos": 0,
+ "eos": 2,
+ "unk": 3,
+ "max_ctx_turns": 2,
+ "max_ctx_pieces": 32,
+ "max_cur_pieces": 64,
+ "role_words": {
+  "assistant": "maya",
+  "user": "user"
+ },
+ "version": "2"
+}
