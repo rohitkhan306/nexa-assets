@@ -1,0 +1,173 @@
+{
+ "pack": "dost-v2",
+ "format": 1,
+ "sealing": "AES-256-GCM in 1 MiB chunks, zlib inside the seal; the key is not here",
+ "engine": {
+  "sample_rate": 24000,
+  "samples_per_frame": 1920,
+  "conditioning_dim": 1024,
+  "max_tokens_per_chunk": 50,
+  "pad_short_inputs": false,
+  "append_terminal_punctuation": false
+ },
+ "moods": [
+  "angry",
+  "calm",
+  "cute",
+  "excited",
+  "happy",
+  "laugh",
+  "love",
+  "neutral",
+  "sad",
+  "shy",
+  "sulk",
+  "surprised",
+  "tease",
+  "whisper"
+ ],
+ "total_size": 82263221,
+ "total_plain_size": 129246680,
+ "files": [
+  {
+   "role": "main",
+   "file": "main.mvp",
+   "size": 47908025,
+   "sha256": "3dd88b1e3a59ed01de3bb462e84af14ba5ef9e4586a034a679c95ab462e93337",
+   "plain_size": 75866418
+  },
+  {
+   "role": "decoder",
+   "file": "decoder.mvp",
+   "size": 11658920,
+   "sha256": "3053ede4a1c6809b3d3ed3f9d4feb9801edc712a891e8715d58392a72576ac7f",
+   "plain_size": 22616918
+  },
+  {
+   "role": "text",
+   "file": "text.mvp",
+   "size": 12230414,
+   "sha256": "36ca834df056477ab70dc68455ed586bfc0377fccbb19daf15eec32881e670e3",
+   "plain_size": 16388310
+  },
+  {
+   "role": "flow",
+   "file": "flow.mvp",
+   "size": 6475908,
+   "sha256": "add8964f68e04bcf2d93a2d7bb713a2f350adc6d3c8fb2ddd490449094763789",
+   "plain_size": 9935594
+  },
+  {
+   "role": "tokenizer",
+   "file": "tokenizer.mvp",
+   "size": 167813,
+   "sha256": "6c66ba999f51ca3813b2e54df9a80a7b8312922c8af018edf09bb48b0a3840ec",
+   "plain_size": 329232
+  },
+  {
+   "role": "bos",
+   "file": "bos.mvp",
+   "size": 4047,
+   "sha256": "aa54959ce9dd6680bc828768327c3cda7f7fc1a5aa86845c41916ba6587ed3b7",
+   "plain_size": 4224
+  },
+  {
+   "role": "voice/angry",
+   "file": "voice-angry.mvp",
+   "size": 224895,
+   "sha256": "41ccf25bb4549ce724978e175c96c9fc5bc9d2df5e0d0e9bd379d92f09356082",
+   "plain_size": 241792
+  },
+  {
+   "role": "voice/calm",
+   "file": "voice-calm.mvp",
+   "size": 285740,
+   "sha256": "26675e21698e69ae88a7f1719c80e5e0efa93dc0599c86bf9e0e49cb8b6c9f06",
+   "plain_size": 307328
+  },
+  {
+   "role": "voice/cute",
+   "file": "voice-cute.mvp",
+   "size": 331359,
+   "sha256": "891cd28c1afabaac8660880df7a5f3ed6fd72ef9eaa413a3fa04f5c17569eb2d",
+   "plain_size": 356480
+  },
+  {
+   "role": "voice/excited",
+   "file": "voice-excited.mvp",
+   "size": 278177,
+   "sha256": "b370ce91e0cef5eae352ba93b33d55928677d3420c034b5614612ca800f2a3e1",
+   "plain_size": 299136
+  },
+  {
+   "role": "voice/happy",
+   "file": "voice-happy.mvp",
+   "size": 255353,
+   "sha256": "0ed58c743cb93435f3647f544801f97bd4a4b00679eb9fa727810e91329396f5",
+   "plain_size": 274560
+  },
+  {
+   "role": "voice/laugh",
+   "file": "voice-laugh.mvp",
+   "size": 335101,
+   "sha256": "7ca78202d3c10bcbb3f310e4064ea473247dc39fe595def589cdbcb4cce7a034",
+   "plain_size": 360576
+  },
+  {
+   "role": "voice/love",
+   "file": "voice-love.mvp",
+   "size": 323950,
+   "sha256": "593bb44bd0aa428768b0c68bc7137868faf7925e2c34240f0f1bfb8a8ddc3443",
+   "plain_size": 348288
+  },
+  {
+   "role": "voice/neutral",
+   "file": "voice-neutral.mvp",
+   "size": 213467,
+   "sha256": "df51e77c9b90e5443a8b042ee9574274d31960f11fbf440cc6c367c69e5322e6",
+   "plain_size": 229504
+  },
+  {
+   "role": "voice/sad",
+   "file": "voice-sad.mvp",
+   "size": 289589,
+   "sha256": "80eee60545348e574ec99e3df0e4ecddcc3df61b31e02932038daf4cba097510",
+   "plain_size": 311424
+  },
+  {
+   "role": "voice/shy",
+   "file": "voice-shy.mvp",
+   "size": 320020,
+   "sha256": "40528c577bed8ce189301bb84546e35b640c96f334e9739d75218e61c646fccf",
+   "plain_size": 344192
+  },
+  {
+   "role": "voice/sulk",
+   "file": "voice-sulk.mvp",
+   "size": 221151,
+   "sha256": "b0bbd151e27b6a49d8d517124fceca82395aee1acc8b3cc662dfb46ea8722be5",
+   "plain_size": 237696
+  },
+  {
+   "role": "voice/surprised",
+   "file": "voice-surprised.mvp",
+   "size": 297073,
+   "sha256": "c151c6f38ebfa57383f4e9b9e0928672335a7ccb1930f110d979644e8b249d17",
+   "plain_size": 319616
+  },
+  {
+   "role": "voice/tease",
+   "file": "voice-tease.mvp",
+   "size": 243894,
+   "sha256": "264c07b671a8c9cb3151392ecc8f305769025ad61ca3949e15a6d1b48f8dc240",
+   "plain_size": 262272
+  },
+  {
+   "role": "voice/whisper",
+   "file": "voice-whisper.mvp",
+   "size": 198325,
+   "sha256": "916935cedffa550e98896907af74b84a630333b09b9207f03d53332aebbe30ab",
+   "plain_size": 213120
+  }
+ ]
+}
