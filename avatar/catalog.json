@@ -1,0 +1,301 @@
+{
+  "version": 2,
+  "note": "Characters the app may offer. Clips inside a pack are NOT listed here - the app knows their names and treats a 404 as 'not in this pack'. Keys are a wire format: add, never rename.",
+  "characters": [
+    {
+      "key": "maya_v1",
+      "persona": "maya",
+      "label": "Maya",
+      "description": "Full body, stands in the screen",
+      "sizeMb": 33,
+      "order": 10,
+      "appearance": "",
+      "minTier": "promax"
+    },
+    {
+      "key": "maya_blue",
+      "persona": "maya",
+      "label": "Maya — blue",
+      "description": "Blue hoodie, playful",
+      "sizeMb": 32,
+      "order": 12,
+      "appearance": "Tum ek young Indian woman ho — lambe dark-brown wavy baal, unchi ponytail me neela ribbon bow aur maathe pe halki bangs; oversized cornflower-blue zip hoodie jo ek kandhe se sarki hui hai, baazu pe chhota safed billi wala logo; andar safed camisole, safed shorts neeli kinari ke saath, safed socks aur neele-safed sneakers. Khadi ho, poori dikhti ho. Andaaz natkhat aur thoda nakhreli hai.",
+      "minTier": "promax",
+      "wallpaperOnly": false
+    },
+    {
+      "key": "maya_red",
+      "persona": "maya",
+      "label": "Maya — anime",
+      "description": "Drawn, and the most expressive: blushes, pouts, hand gestures",
+      "sizeMb": 49,
+      "order": 15,
+      "appearance": "Tum ek young Indian woman ho — lambe kaale baal, brown aankhein. Laal rang ki full-sleeve chhoti dress pehni hai jis par sunehri (gold) kaam hai, aur safed ankle-strap heeled sandals. Poori khadi hui dikhti ho. Tumhara andaaz drawn/anime jaisa hai, isliye tumhare chehre ke bhaav saaf dikhte hain — sharmana, muh phulana, haathon se baat karna.",
+      "minTier": "free"
+    },
+    {
+      "key": "maya_studio",
+      "persona": "maya",
+      "label": "Maya — studio",
+      "description": "Waist-up, closer in",
+      "sizeMb": 17,
+      "order": 20,
+      "appearance": "",
+      "minTier": "licensed"
+    },
+    {
+      "key": "maya_violet",
+      "persona": "maya",
+      "label": "Maya — violet",
+      "description": "Purple gown, full body",
+      "sizeMb": 89,
+      "order": 30,
+      "appearance": "Tum ek young Indian woman ho lambe violet-purple baal, purple velvet gown me, full body dikhti ho.",
+      "minTier": "promax"
+    },
+    {
+      "key": "jarvis_v2_wp",
+      "persona": "jarvis",
+      "label": "Jarvis",
+      "description": "Live wallpaper",
+      "sizeMb": 2,
+      "order": 40,
+      "appearance": "",
+      "minTier": "promax",
+      "wallpaperOnly": true
+    },
+    {
+      "key": "maya_v1_wp",
+      "persona": "maya",
+      "label": "Maya",
+      "description": "Live wallpaper",
+      "sizeMb": 1,
+      "order": 40,
+      "appearance": "",
+      "minTier": "licensed",
+      "wallpaperOnly": true
+    },
+    {
+      "key": "maya_green_wp",
+      "persona": "maya",
+      "label": "Maya green",
+      "description": "Live wallpaper",
+      "sizeMb": 1,
+      "order": 40,
+      "appearance": "",
+      "minTier": "promax",
+      "wallpaperOnly": true
+    },
+    {
+      "key": "maya_red_wp",
+      "persona": "maya",
+      "label": "Maya red",
+      "description": "Live wallpaper",
+      "sizeMb": 1,
+      "order": 40,
+      "appearance": "",
+      "minTier": "free",
+      "wallpaperOnly": true
+    },
+    {
+      "key": "maya_saree_wp",
+      "persona": "maya",
+      "label": "Maya saree",
+      "description": "Live wallpaper",
+      "sizeMb": 1,
+      "order": 40,
+      "appearance": "",
+      "minTier": "promax",
+      "wallpaperOnly": true
+    },
+    {
+      "key": "maya_studio_wp",
+      "persona": "maya",
+      "label": "Maya studio",
+      "description": "Live wallpaper",
+      "sizeMb": 1,
+      "order": 40,
+      "appearance": "",
+      "minTier": "free",
+      "wallpaperOnly": true
+    },
+    {
+      "key": "maya_violet_wp",
+      "persona": "maya",
+      "label": "Maya violet",
+      "description": "Live wallpaper",
+      "sizeMb": 2,
+      "order": 40,
+      "appearance": "",
+      "minTier": "promax",
+      "wallpaperOnly": true
+    },
+    {
+      "key": "maya_green",
+      "persona": "maya",
+      "label": "Maya — green",
+      "description": "Green gingham skirt, full body",
+      "sizeMb": 29,
+      "order": 40,
+      "appearance": "Tum ek young Indian woman ho — wavy auburn-brown shoulder-length baal front bangs ke saath, safed eyelet-lace crop top (puff sleeves aur daisy embroidery wale front tie-bow ke saath), green-and-white gingham checked high-waist pleated mini skirt, safed lace-up sneakers, chhota gold butterfly pendant necklace aur gold hoop earrings. Poori khadi hui, full body dikhti ho.",
+      "minTier": "licensed",
+      "wallpaperOnly": false
+    },
+    {
+      "key": "venom_wp",
+      "persona": "venom",
+      "label": "Venom",
+      "description": "Live wallpaper",
+      "sizeMb": 2,
+      "order": 40,
+      "appearance": "",
+      "minTier": "promax",
+      "wallpaperOnly": true
+    },
+    {
+      "key": "maya_saree",
+      "persona": "maya",
+      "label": "Maya — saree",
+      "description": "Sage-green & gold saree, upper body",
+      "sizeMb": 52,
+      "order": 50,
+      "appearance": "Tum ek young Indian woman ho — lambe dark-brown wavy baal (crown pe braid, kandhon pe khule), sage-green aur gold shimmering net saree gold zari border ke saath ek kandhe pe draped, andar matching gold-green short-sleeve blouse, bhaari gold jewellery (jewelled choker, bade gold jhumke, chhota nose ring fine chain ke saath), dono haathon me green-and-gold glass bangles, haathon pe reddish mehndi, maathe pe chhoti green bindi. Upper body dikhti ho.",
+      "minTier": "promax",
+      "wallpaperOnly": false
+    },
+    {
+      "key": "jarvis_v2",
+      "persona": "jarvis",
+      "label": "Jarvis",
+      "description": "Work mode",
+      "sizeMb": 34,
+      "order": 58,
+      "appearance": "",
+      "minTier": "promax",
+      "wallpaperOnly": false
+    },
+    {
+      "key": "jarvis",
+      "persona": "jarvis",
+      "label": "Jarvis",
+      "description": "Work mode",
+      "sizeMb": 18,
+      "order": 60,
+      "appearance": "",
+      "minTier": "promax"
+    },
+    {
+      "key": "venom",
+      "persona": "venom",
+      "label": "Venom",
+      "description": "Symbiote, deep voice",
+      "sizeMb": 47,
+      "order": 65,
+      "appearance": "",
+      "minTier": "promax",
+      "wallpaperOnly": false
+    }
+  ],
+  "scenes": [
+    {
+      "key": "scene_maya_desk",
+      "label": "Asleep at her desk",
+      "description": "Maya dozing under the neon, breathing softly.",
+      "minTier": "promax",
+      "order": 1,
+      "sizeMb": 71,
+      "variants": [
+        {
+          "key": "p720_30",
+          "w": 720,
+          "h": 1584,
+          "fps": 30,
+          "bytes": 17465989,
+          "sha256": "90d3a3e7c193c8c071497f6e4d670586840b62f6cf846c72f3757cfbdd23e62a"
+        },
+        {
+          "key": "p720_60",
+          "w": 720,
+          "h": 1584,
+          "fps": 60,
+          "bytes": 24622907,
+          "sha256": "5ab688fcf7be71092e18eea41cd8806b9daadce70f86f45b58c544ccb963684d"
+        },
+        {
+          "key": "p928_60",
+          "w": 928,
+          "h": 2040,
+          "fps": 60,
+          "bytes": 42199894,
+          "sha256": "61c600ef057035771b4d1351749693276bac0b17f3370c5e679768645191f2dc"
+        },
+        {
+          "key": "p1080_60",
+          "w": 1080,
+          "h": 2376,
+          "fps": 60,
+          "bytes": 55613235,
+          "sha256": "64ae4f534fdb8fe4329f96b40c052bed222af9b7555e37f09dd801a32a8312e3"
+        },
+        {
+          "key": "p1264_60",
+          "w": 1264,
+          "h": 2780,
+          "fps": 60,
+          "bytes": 71468657,
+          "sha256": "c087c9487f2f63075259002f71c185402a0a703231312c23a392621618b2f7cd"
+        }
+      ]
+    },
+    {
+      "key": "scene_robot_hand",
+      "label": "The reaching hand",
+      "description": "A glowing machine hand rising over the circuit city.",
+      "minTier": "promax",
+      "order": 2,
+      "sizeMb": 17,
+      "variants": [
+        {
+          "key": "p720_30",
+          "w": 720,
+          "h": 1584,
+          "fps": 30,
+          "bytes": 4253143,
+          "sha256": "1c5448d428a8b70ed867915115a1d86263ebad0a652ec87ad89cd8d08df94b3f"
+        },
+        {
+          "key": "p720_60",
+          "w": 720,
+          "h": 1584,
+          "fps": 60,
+          "bytes": 6653862,
+          "sha256": "44ec7fbf5b93ecb8016c647281e04afa26f5a94269e4f01e4fd3e1940a5d3418"
+        },
+        {
+          "key": "p928_60",
+          "w": 928,
+          "h": 2040,
+          "fps": 60,
+          "bytes": 10292140,
+          "sha256": "bf068d30d46db5aece78b20f4a0a6ff57600b83452baa646655155d56b36059e"
+        },
+        {
+          "key": "p1080_60",
+          "w": 1080,
+          "h": 2376,
+          "fps": 60,
+          "bytes": 13324692,
+          "sha256": "e766931feb11371c42ea83b6dc683051372ebc02b4832c3d2414ba21d8ab3c09"
+        },
+        {
+          "key": "p1264_60",
+          "w": 1264,
+          "h": 2780,
+          "fps": 60,
+          "bytes": 16896387,
+          "sha256": "2600be711d89c1391ccc1d10b2f7e096eb8391c9af606fe7ce4e4603e6213789"
+        }
+      ]
+    }
+  ]
+}
