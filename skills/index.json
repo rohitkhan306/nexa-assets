@@ -1,0 +1,214 @@
+{
+  "skills": [
+    {
+      "name": "daily_briefing",
+      "description": "Subah \"good morning\" / \"din ka update do\" bole to phone ka pura ek-baar-me briefing dena",
+      "file": "skills/daily_briefing.md",
+      "updated": "2026-11-17",
+      "seed": true
+    },
+    {
+      "name": "whatsapp_pro",
+      "description": "WhatsApp ka koi bhi kaam (message, reply, group, file, call) galti-free tarike se karna",
+      "file": "skills/whatsapp_pro.md",
+      "updated": "2026-11-17",
+      "seed": true
+    },
+    {
+      "name": "call_secretary",
+      "description": "Incoming phone call aane pe announce/pickup/reject aur call ke baad ka pura etiquette",
+      "file": "skills/call_secretary.md",
+      "updated": "2026-11-17",
+      "seed": true
+    },
+    {
+      "name": "photo_share",
+      "description": "Photo/video khinch ke ya gallery se nikaal ke WhatsApp pe bhejne ka end-to-end flow",
+      "file": "skills/photo_share.md",
+      "updated": "2026-11-17",
+      "seed": true
+    },
+    {
+      "name": "music_dj",
+      "description": "Gaana/music/video bajane, control karne aur mood ke hisaab se DJ banne ka tarika",
+      "file": "skills/music_dj.md",
+      "updated": "2026-11-17",
+      "seed": true
+    },
+    {
+      "name": "phone_care",
+      "description": "Battery bachana, phone slow/garam hone pe care karna, settings sahi karna",
+      "file": "skills/phone_care.md",
+      "updated": "2026-11-17",
+      "seed": true
+    },
+    {
+      "name": "study_focus",
+      "description": "Padhai/kaam ka focus session — DND, timer, distractions band, end pe recap",
+      "file": "skills/study_focus.md",
+      "updated": "2026-11-17",
+      "seed": true
+    },
+    {
+      "name": "chatgpt_image_gen",
+      "description": "Jab user \"image bana do / AI se photo generate karo\" bole to ChatGPT app se sub-agent se image banwa ke download karna",
+      "file": "skills/chatgpt_image_gen.md",
+      "updated": "2026-11-17",
+      "seed": true
+    },
+    {
+      "name": "quick_notes",
+      "description": "Smart voice note-taking, checklists, and daily task management",
+      "file": "skills/quick_notes.md",
+      "updated": "2026-11-17",
+      "seed": true
+    },
+    {
+      "name": "system_diagnostics",
+      "description": "Real-time hardware, battery health, CPU, RAM and device diagnostics",
+      "file": "skills/system_diagnostics.md",
+      "updated": "2026-11-17",
+      "seed": true
+    },
+    {
+      "name": "smart_home_iot",
+      "description": "Autonomous voice control for IoT lights, switches and smart appliances",
+      "file": "skills/smart_home_iot.md",
+      "updated": "2026-11-17",
+      "seed": true
+    },
+    {
+      "name": "meeting_intelligence",
+      "description": "Voice meeting transcription and automatic action-item summarizer",
+      "file": "skills/meeting_intelligence.md",
+      "updated": "2026-11-17",
+      "seed": true
+    },
+    {
+      "name": "youtube_accessibility",
+      "description": "Hands-free YouTube control: auto-fullscreen, next video and speed control",
+      "file": "skills/youtube_accessibility.md",
+      "updated": "2026-11-17",
+      "seed": true
+    },
+    {
+      "name": "lead_client_manager",
+      "description": "Smart business CRM: lead tracking, client contact history and budget logging",
+      "file": "skills/lead_client_manager.md",
+      "updated": "2026-11-17",
+      "seed": true
+    },
+    {
+      "name": "gallery_face_organizer",
+      "description": "Intelligent photo album sorting by family members and facial clusters",
+      "file": "skills/gallery_face_organizer.md",
+      "updated": "2026-11-17",
+      "seed": true
+    },
+    {
+      "name": "expense_guardian",
+      "description": "Phone camera se receipt/bill scan karke kharch ka hisab aur Excel/sheet me log karna",
+      "file": "skills/expense_guardian.md",
+      "updated": "2026-11-17",
+      "seed": true
+    },
+    {
+      "name": "document_researcher",
+      "description": "Mobile me kisi bhi PDF, book ya document ka instant summary aur deep Q&A",
+      "file": "skills/document_researcher.md",
+      "updated": "2026-11-17",
+      "seed": true
+    },
+    {
+      "name": "calendar_planner",
+      "description": "Voice command se Google Calendar me meetings, events aur alerts schedule karna",
+      "file": "skills/calendar_planner.md",
+      "updated": "2026-11-17",
+      "seed": true
+    },
+    {
+      "name": "system_cleaner",
+      "description": "Phone ki junk files, temp cache aur duplicate downloads voice se clean karna",
+      "file": "skills/system_cleaner.md",
+      "updated": "2026-11-17",
+      "seed": true
+    },
+    {
+      "name": "social_scheduler",
+      "description": "Social media (Facebook, LinkedIn, X) ke liye viral post aur hashtags create karna",
+      "file": "skills/social_scheduler.md",
+      "updated": "2026-11-17",
+      "seed": true
+    },
+    {
+      "name": "email_agent",
+      "description": "Mobile se professional email draft karna, reply likhna aur spam filter karna",
+      "file": "skills/email_agent.md",
+      "updated": "2026-11-17",
+      "seed": true
+    },
+    {
+      "name": "freelance_bid_master",
+      "description": "Fiverr aur Upwork client jobs ke liye winning proposal aur cover letter generate karna",
+      "file": "skills/freelance_bid_master.md",
+      "updated": "2026-11-17",
+      "seed": true
+    },
+    {
+      "name": "live_translator",
+      "description": "Real-time bilingual voice translation (Bangla <-> English, Hindi, Arabic)",
+      "file": "skills/live_translator.md",
+      "updated": "2026-11-17",
+      "seed": true
+    },
+    {
+      "name": "voice_invoice_maker",
+      "description": "Mukhe bolte hi customer ke liye branded digital cash memo aur invoice generate karna",
+      "file": "skills/voice_invoice_maker.md",
+      "updated": "2026-11-17",
+      "seed": true
+    },
+    {
+      "name": "anti_fraud_shield",
+      "description": "Spam/scam phone calls aur fake OTP/banking messages pe instant voice warning dena",
+      "file": "skills/anti_fraud_shield.md",
+      "updated": "2026-11-17",
+      "seed": true
+    },
+    {
+      "name": "nexa_teleport",
+      "description": "PC aur Mobile ke beech instant clipboard sync aur zero-cable wireless file share",
+      "file": "skills/nexa_teleport.md",
+      "updated": "2026-11-17",
+      "seed": true
+    },
+    {
+      "name": "exam_master",
+      "description": "Voice exam prep, flashcard quiz aur verbal mock test lene wala AI examiner",
+      "file": "skills/exam_master.md",
+      "updated": "2026-11-17",
+      "seed": true
+    },
+    {
+      "name": "code_math_tutor",
+      "description": "Math problem solution aur coding error debugging step-by-step sikhana",
+      "file": "skills/code_math_tutor.md",
+      "updated": "2026-11-17",
+      "seed": true
+    },
+    {
+      "name": "health_pill_tracker",
+      "description": "Prescription scan karke dawai lene ka time-to-time voice alarm aur water reminder",
+      "file": "skills/health_pill_tracker.md",
+      "updated": "2026-11-17",
+      "seed": true
+    },
+    {
+      "name": "safety_guardian",
+      "description": "Emergency SOS: voice code ya 3-power-press pe family ko live location aur alert bhejna",
+      "file": "skills/safety_guardian.md",
+      "updated": "2026-11-17",
+      "seed": true
+    }
+  ]
+}
